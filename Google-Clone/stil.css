@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+        width: 100%;
+        height: auto;
+}
+header{    
+    margin-top: 10px; 
+    margin-right: 4px;
+    height: 50px;
+    text-align: right;
+    
+}
+.header-link{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #212121;
+    font-size: 13px;
+    position: relative;
+}
+.header-link:hover{
+    text-decoration:underline;
+
+}
+.headericon{
+    margin-left: 3px;
+    font-size: 20px;
+    color: #5F6368;
+    padding: 10px;
+}
+
+.headericon:hover{
+    border-radius: 50%;
+    background-color: #F0F0F0;
+
+}
+
+/*Google Logo*/
+
+
+.google-logo{
+margin-left: 547px;
+  
+}
+
+form{
+    position: relative;
+}
+
+.search-bar{
+    margin:0 447px;
+    width: 468px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    position: relative;
+    
+    
+}
+.search-bar:focus{
+    outline: 0;
+}
+.search-bar:hover{
+    box-shadow: 0 0 2px 2px #E3E3E4;
+}
+.search-bar::after{
+   content: "";
+    clear: both;
+    display: block;
+}
+.searchicon{
+margin-left: 460px;
+margin-top: 40px;
+position: absolute;
+z-index: 1;
+color: #000;
+}
+
+.button{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.button>a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    padding: 10px 16px;
+    color: #3c4043;
+    font-size: 14px;
+    margin-left: 20px;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+}
+.button>a:hover{
+    border:1px solid #E3E5E7;
+    box-shadow: 0 1px 1px  #DADCE0;  
+}
